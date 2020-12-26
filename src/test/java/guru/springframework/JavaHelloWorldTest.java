@@ -8,5 +8,7 @@ class JavaHelloWorldTest {
 
     @Test
     public void testGetHello() {
+        JavaHelloWorld javaHelloWorld = new JavaHelloWorld();
+        assertEquals("Hello World",javaHelloWorld.getHello());
     }
 }
